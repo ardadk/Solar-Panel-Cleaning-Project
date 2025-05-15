@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['bird drop', 'clean', 'dusty', 'electrical damage', 'physical damage', 'snow covered']
+
+roboflow:
+  workspace: panel-pollution-dataset-6dbda
+  project: solar-panel-pollution-dataset-vwpax
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/panel-pollution-dataset-6dbda/solar-panel-pollution-dataset-vwpax/dataset/2
